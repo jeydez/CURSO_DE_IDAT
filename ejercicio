@@ -1,0 +1,9 @@
+#Escribe un programa que guarde en memoria una
+#cantidad en soles y también el tipo de cambio del día, 
+#luego usando un tipo de
+#cambio dado imprima su equivalencia en dólares.
+
+cantidad_en_soles = float(input("Ingrese la cantidad de soles: "))
+cambio_del_dia = 3.50
+cambio = cantidad_en_soles / 3.50
+print(f"El cambio de {cantidad_en_soles} es de {cambio} dolares, claro y esto segun el cambio a dolar que es de ${cambio_del_dia} soles")
