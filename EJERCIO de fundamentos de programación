@@ -1,0 +1,11 @@
+# Solicitar el número de horas trabajadas y la tarifa por hora
+horas_trabajadas = float(input("Ingrese el número de horas trabajadas en la semana: "))
+tarifa_por_hora = float(input("Ingrese la tarifa por hora: "))
+
+# Calcular el salario semanal
+salario_semanal = horas_trabajadas * tarifa_por_hora
+
+# Mostrar el resultado
+print(f"Horas trabajadas: {horas_trabajadas}")
+print(f"Tarifa por hora: ${tarifa_por_hora:.2f}")
+print(f"Salario semanal: ${salario_semanal:.2f}")
